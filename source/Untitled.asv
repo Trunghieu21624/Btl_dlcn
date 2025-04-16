@@ -1,0 +1,9 @@
+T = readtable('mau_tai_4.7.csv');       % ??c toàn b? file CSV vào table T
+value = T.RealValue;     
+plot(value, '.');              % V? marker hình tròn
+xlabel('');
+ylabel('Time'); % N?i các ?i?m b?ng ???ng k?
+title('T?i 4.7muy');
+ylim([100 8000]);
+grid on;
+
